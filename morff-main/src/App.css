@@ -1,0 +1,171 @@
+.App {
+  text-align: center;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.top {
+  position: absolute;
+  width: 100vw;
+  height: 15vh;
+  left: 0;
+  top: 0;
+  color: aliceblue;
+  background: #000000;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 1px 1px 1px 1px;
+}
+.top h3 {
+  text-align: left;
+  padding-left: 1rem;
+  font-size: 1.7rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: -1rem;
+}
+.top p {
+  text-align: left;
+  padding-left: 1rem;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.tab_motion {
+  animation: tab_motion 1s ease-in-out;
+  justify-content: left;
+  position: absolute;
+  width: 30vw;
+  height: 15vh;
+  left: 0;
+  top: 17vh;
+}
+.tab_motion_C {
+  animation: tab_motion_C 1s ease-in-out;
+  justify-content: left !important;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 7vh;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+}
+.tab_motion_C1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 14px;
+  margin-left: 1.5vw;
+  gap: 12px;
+
+  width: 95vw;
+  height: 11vh;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(151, 151, 151, 0.25);
+}
+#next{
+  height: 40vh!important;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 14px;
+  margin-left: 1.5vw;
+  gap: 12px;
+
+  width: 95vw;
+  
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 4px 4px 20px rgba(151, 151, 151, 0.25);
+
+}
+
+#Invoices_D{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+margin-top: -30px!important;
+/* identical to box height */
+color: #666666;
+}
+.css-mhc70k-MuiGrid-root>.MuiGrid-item {
+  padding-top: 0px;
+}
+#gridItem{
+  padding-top: 0px;
+}
+.griditemP{
+  font-size: 1.4rem;
+}
+.griditemDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* align-items: center; */
+  width: 100%;
+  font-weight: 200;
+}
+.next_T{
+  height: 14vh;
+  width: 94vw;
+}
+.next_M{
+  height: 10vh;
+}
+.next_B{
+  height: 6vh;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #666666;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
